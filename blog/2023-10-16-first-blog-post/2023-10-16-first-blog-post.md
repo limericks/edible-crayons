@@ -4,7 +4,6 @@ title: First Crayon
 authors:
   name: Luke
   title: Edible Crayons Founder
-  url: lukeonAzure.azurewebsites.net
 tags: [crayons, edible, founder, first, post]
 ---
 
