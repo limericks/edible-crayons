@@ -2,46 +2,32 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Platform Engineering Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's explore **Platform Engineering in less than 5 minutes**.
 
-## Getting Started
+## What is Platform Engineering?
 
-Get started by **creating a new site**.
+Platform Engineering is a term used to describe the work performed by teams composed of infrastructure, software engineering, and devops engineers engaged in building enterprise platforms for developer enablement.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Ok...What's a platform? A platform is a grouping of software and infrastructure technologies arranged to provide a holistic developer experience. The purpose of this platform is to enable developers to ship better code, faster. Code produced through the platform will inherently comply with organizational standards when constrained by the platform technologies. If a platform was thought of as a construction project, the platform would provide the toolbox, the blueprint, the materials, the safeguards, the supply chain, and the delivery.
 
-### What you'll need
+Still too vague? Let's break it down further by exploring how professionals divide their platforms. It is important to note that platform engineering is an evolving field, and as such, there are differing views on how a platform should be divided. We'll find PlatformEngineering.org's separation contains fewer planes than Microsoft MVP Steve Buchanan's view, however all of the technologies and the capabilities they provide are present in both models. Although the latter model of a platform contains 2 additional planes, they can be explained as abstractions of planes found in the former model. The Management Plane is simply contained within the Resource Plane in the PlatformEngineering.org model. Likewise, Buchanan's State Plane is split between Platform Engineering's Resource Plane and Integration & Delivery Plane.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### [PlatformEngineering.Org](https://www.platformengineering.org)
 
-## Generate a new site
+1. [Resource Plane](./Platform%20-%20Planes/Resource%20Plane)
+2. [Integration & Delivery Plane](./Platform%20-%20Planes/Integration%20and%20Delivery%20Plane)
+3. [Developer (Control) Plane](./Platform%20-%20Planes/Developer%20Interface%20Plane)
+4. [Monitoring & Logging Plane](./Platform%20-%20Planes/Monitoring%20and%20Logging%20Plane)
+5. [Security Plane](./Platform%20-%20Planes/Security%20Plane)
 
-Generate a new Docusaurus site using the **classic template**.
+### [Steve Buchanan](https://platformengineering.org/platform-tooling)
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+1. [Resource Plane](./Platform%20-%20Planes/Resource%20Plane)
+2. [Management Plane](./Platform%20-%20Planes/Management%20Plane)
+3. [Integration & Delivery Plane](./Platform%20-%20Planes/Integration%20and%20Delivery%20Plane)
+4. [Interface Control Plane](./Platform%20-%20Planes/Developer%20Interface%20Plane)
+5. [State Plane](./Platform%20-%20Planes/State%20Plane)
+6. [Monitoring & Logging Plane](./Platform%20-%20Planes/Monitoring%20and%20Logging%20Plane)
+7. [Security Plane](./Platform%20-%20Planes/Security%20Plane)
