@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Edible Crayons",
   tagline: "Platform Engineering Topics",
-  favicon: "img/favicon.ico",
+  favicon: "img/boxofcrayons.ico",
 
   // Set the production url of your site here
   url: "https://ambitious-field-0f7fe3f10.3.azurestaticapps.net/",
@@ -56,23 +56,23 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/boxofcrayons.png",
       navbar: {
         title: "Edible Crayons",
         logo: {
           alt: "Edible Crayons",
-          src: "img/logo.svg",
+          src: "img/boxofcrayons.svg",
         },
         items: [
           {
             type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            sidebarId: "IntroductionSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Introduction",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/limericks/edible-crayons/",
             label: "GitHub",
             position: "right",
           },
@@ -85,7 +85,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Introduction",
                 to: "/docs/intro",
               },
             ],

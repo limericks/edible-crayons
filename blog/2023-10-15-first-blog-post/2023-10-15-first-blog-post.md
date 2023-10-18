@@ -2,7 +2,7 @@
 slug: Edible Crayons First Post
 title: First Crayon
 authors: [luke]
-tags: [crayons, edible, founder, first, post]
+tags: [crayons, edible, founder, first]
 ---
 
 Welcome to Edible Crayons. We'll talk about things here.
