@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "Learn About Platform Engineering",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("@site/static/img/plate_of_crayons.svg").default,
     description: (
       <>
         Edible Crayons was designed with education in mind. Platform Engineering
@@ -21,12 +21,12 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Platform Tooling",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("@site/static/img/melted_crayon_pot.svg").default,
     description: <>Edible Crayons provides guidance on platform tooling.</>,
   },
   {
     title: "Explore Platform Architecture",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("@site/static/img/robo_hungry.svg").default,
     description: (
       <>
         Explore platform architecture models and learn about planes in Platform
