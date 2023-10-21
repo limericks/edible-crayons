@@ -107,10 +107,6 @@ const config = {
                 label: "Linked In",
                 href: "https://www.linkedin.com/in/lukeerickson123/",
               },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
             ],
           },
           {
@@ -124,10 +120,14 @@ const config = {
                 label: "GitHub",
                 href: "https://github.com/limericks/",
               },
+              {
+                label: "LukeOnAzure",
+                href: "https://lukeonazure.azurewebsites.net/",
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Luke Erickson. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} edible-crayons. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -15,7 +15,8 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Edible Crayons was designed with education in mind. Platform Engineering
-        is a newer concept and our goal is push the platform experience.
+        is a newer concept and our goal is to provide resources to learn more on
+        the topic.
       </>
     ),
   },
