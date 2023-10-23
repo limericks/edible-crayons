@@ -77,6 +77,7 @@ const config = {
             label: "Introduction",
           },
           { to: "/blog", label: "Blog", position: "left" },
+          { to: "/roadmap", label: "Roadmap", position: "left" },
           {
             href: "https://github.com/limericks/edible-crayons/",
             label: "GitHub",
