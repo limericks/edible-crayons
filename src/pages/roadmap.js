@@ -1,5 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import RoadmapRow from "../components/Roadmap/RoadmapRow";
+import SearchBanner from "../components/Roadmap/SearchBanner";
 
 const topicsWithSubtopics = [
   {
@@ -195,6 +197,7 @@ export default function Roadmap() {
 
   return (
     <Layout title="Roadmap" description="Platform Engineering Roadmap">
+      <SearchBanner />
       <div
         style={{
           display: "flex",
@@ -202,52 +205,7 @@ export default function Roadmap() {
         }}
       >
         {weeksByMonth.map((monthWeeks, monthIndex) => (
-          <div
-            key={monthIndex}
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              marginBottom: "10px", // Adjust the space between rows
-              alignItems: "flex-start", // To align items at the top of the row
-            }}
-          >
-            <div
-              style={{
-                writingMode: "vertical-rl",
-                textOrientation: "mixed",
-                fontSize: "18px",
-                marginRight: "10px", // Adjust space between month label and items
-              }}
-            >
-              {monthWeeks[0].weekStartDate.toLocaleString("default", {
-                month: "short",
-              })}
-            </div>
-            {monthWeeks.map((week, weekIndex) => (
-              <div
-                key={weekIndex}
-                style={{
-                  padding: "20px",
-                  border: "1px solid #ccc",
-                  width: "300px",
-                  height: "300px",
-                }}
-              >
-                <h2 className="roadmap_date">
-                  {week.weekStartDate.toLocaleDateString()}
-                </h2>
-                <h3>{week.topic.title}</h3>
-                <ul>
-                  {week.topic.subtopics.map((subtopic, subIndex) => (
-                    <li key={subIndex}>{subtopic}</li>
-                  ))}
-                </ul>
-                <p>
-                  <a href={week.topic.url}>Learn More</a>
-                </p>
-              </div>
-            ))}
-          </div>
+          <RoadmapRow key={monthIndex} weeks={monthWeeks} />
         ))}
       </div>
     </Layout>
