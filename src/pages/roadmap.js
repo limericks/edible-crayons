@@ -8,7 +8,7 @@ const topicsWithSubtopics = [
     title: "Introduction to Platform Engineering",
     subtopics: ["7 Planes", "Benefits of Platform Engineering"],
     estimatedDate: "10/30/2023",
-    url: "/docs/Intro",
+    url: "/docs/intro",
   },
   {
     title: "Development Architecture",
@@ -142,7 +142,12 @@ const topicsWithSubtopics = [
     estimatedDate: "02/26/2024",
     url: "/docs/Certifications-and-Career-Paths",
   },
-  // Add more items with estimated dates and URLs
+  {
+    title: "The Last Update",
+    subtopics: ["Loose Ends", "Next Steps"],
+    estimatedDate: "03/02/2024",
+    url: "/docs/Final",
+  },
 ];
 
 export default function Roadmap() {
