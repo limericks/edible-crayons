@@ -20,8 +20,8 @@ const styles = {
   box: {
     border: "1px solid #ccc",
     padding: "10px",
-    width: "300px",
-    height: "300px",
+    width: "400px",
+    height: "400px",
   },
 };
 
