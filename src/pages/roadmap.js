@@ -5,162 +5,199 @@ import SearchBanner from "../components/Roadmap/SearchBanner";
 
 const topicsWithSubtopics = [
   {
-    title: "Introduction to Platform Engineering",
-    subtopics: ["7 Planes", "Benefits of Platform Engineering"],
+    title: "Course Introduction and Overview",
+    description:
+      "An introduction to the course structure, expectations, and key objectives.",
+    subtopics: [
+      "Why Platform Engineering?",
+      "Course Outline",
+      "Assessment Criteria",
+    ],
+    plane: "Foundations",
     estimatedDate: "10/30/2023",
     url: "/docs/intro",
   },
   {
-    title: "Development Architecture",
+    title: "History and Evolution of Platform Engineering",
+    description:
+      "Tracing the evolution of Platform Engineering from traditional infrastructure to modern practices.",
     subtopics: [
-      "Monolithic Architecture",
-      "Microservices Architecture",
-      "Serverless Architecture",
+      "From Physical Servers to Virtualization",
+      "Cloud Revolution",
+      "Rise of Containers and Orchestration",
     ],
+    plane: "Foundations",
     estimatedDate: "11/06/2023",
-    url: "/docs/Platform_Architecture",
+    url: "/docs/history-evolution",
   },
   {
-    title: "Scalability and Performance",
+    title: "Key Principles of Platform Engineering",
+    description:
+      "Understanding the core tenets and philosophies behind Platform Engineering.",
     subtopics: [
-      "Strategies for Scalability",
-      "Performance Optimization Techniques",
+      "Infrastructure as Code",
+      "Immutable Infrastructure",
+      "Continuous Delivery and Integration",
+      "Self-service Platforms",
     ],
+    plane: "Foundations",
     estimatedDate: "11/13/2023",
-    url: "/docs/Scalability-and-Performance",
+    url: "/docs/key-principles",
   },
   {
-    title: "Infrastructure as Code (IaC)",
-    subtopics: ["Introduction to IaC", "Tools and Best Practices"],
+    title: "Deep Dive into the Planes of Platform Engineering",
+    description:
+      "Exploring each of the planes in depth, understanding their significance and role.",
+    subtopics: ["Exploration of the Planes"],
+    plane: "Foundations",
     estimatedDate: "11/20/2023",
-    url: "/docs/Infrastructure-as-Code-IaC",
+    url: "/docs/planes-deepdive",
   },
   {
-    title: "Containerization and Orchestration",
-    subtopics: ["Docker and Containers", "Kubernetes and Orchestration"],
+    title: "Infrastructure as Code (IaC): A Practical Approach",
+    description: "Hands-on introduction to IaC, with labs and exercises.",
+    subtopics: [
+      "Introduction to IaC",
+      "Terraform 101",
+      "Ansible Basics",
+      "GitOps Principles",
+    ],
+    plane: "Management Plane",
     estimatedDate: "11/27/2023",
-    url: "/docs/Containerization-and-Orchestration",
+    url: "/docs/IaC-practical",
   },
   {
-    title: "Cloud Computing Platforms",
+    title: "Containerization, Orchestration, and Kubernetes",
+    description:
+      "Understanding containers, their benefits, and orchestration with Kubernetes.",
     subtopics: [
-      "AWS (Amazon Web Services)",
-      "Azure (Microsoft Azure)",
-      "GCP (Google Cloud Platform)",
+      "Docker Basics",
+      "Intro to Kubernetes",
+      "Kubernetes Architecture",
+      "Hands-on Lab: Setting up a Kubernetes Cluster",
     ],
+    plane: "Resource Plane",
     estimatedDate: "12/04/2023",
-    url: "/docs/Cloud-Computing-Platforms",
+    url: "/docs/kubernetes-intro",
   },
   {
-    title: "Continuous Integration and Continuous Deployment (CI/CD)",
-    subtopics: ["CI/CD Pipelines", "Automation Tools (e.g., Jenkins)"],
+    title: "State Management and Persistence in Platform Engineering",
+    description:
+      "Understanding how state is managed, stored, and made resilient in platform architectures.",
+    subtopics: [
+      "Databases: SQL vs. NoSQL",
+      "Stateful vs. Stateless Architectures",
+      "Storage Solutions: Block, File, Object",
+    ],
+    plane: "State Plane",
     estimatedDate: "12/11/2023",
-    url: "/docs/CI-CD",
+    url: "/docs/state-management",
   },
   {
-    title: "Service Mesh and Networking",
+    title:
+      "Project: Building a Platform on Azure using GitHub and IaC - Initialization",
+    description:
+      "Setting the stage for our project: Choosing services, setting up accounts, and initializing our infrastructure code.",
     subtopics: [
-      "Introduction to Service Mesh",
-      "Networking in Platform Engineering",
+      "Project Overview and Goals",
+      "Setting up Azure Account and GitHub Repository",
+      "Choosing the right IaC Tool for Azure (Terraform will be used for its compatibility and free tier)",
+      "Initializing Terraform for Azure on GitHub",
     ],
+    plane: "Management Plane",
     estimatedDate: "12/18/2023",
-    url: "/docs/Service-Mesh-and-Networking",
+    url: "/docs/project-initialization",
   },
   {
-    title: "Security in Platform Engineering",
+    title: "Project: Infrastructure Setup on Azure",
+    description:
+      "Beginning our platform infrastructure setup using Terraform and Azure services.",
     subtopics: [
-      "Best Practices for Platform Security",
-      "Identity and Access Management (IAM)",
+      "Setting up Virtual Networks in Azure",
+      "Creating and Configuring Storage Solutions",
+      "Initializing Virtual Machines or Azure Kubernetes Service (AKS)",
+      "Integrating with GitHub Actions for CI/CD",
     ],
-    estimatedDate: "12/25/2023",
-    url: "/docs/Platform-Security",
-  },
-  {
-    title: "Monitoring and Observability",
-    subtopics: [
-      "Telemetry Data and Metrics",
-      "Log Management and Troubleshooting",
-    ],
-    estimatedDate: "01/01/2024",
-    url: "/docs/Monitoring-and-Observability",
-  },
-  {
-    title: "High Availability and Disaster Recovery",
-    subtopics: ["Redundancy and Failover", "Backup and Recovery Strategies"],
+    plane: "Resource Plane",
     estimatedDate: "01/08/2024",
-    url: "/docs/High-Availability-and-Disaster-Recovery",
+    url: "/docs/project-infrastructure",
   },
   {
-    title: "DevOps Culture",
-    subtopics: ["Principles of DevOps", "Collaboration and Automation"],
+    title: "Project: Configuring Platform Interfaces and State Management",
+    description:
+      "Ensuring our platform interfaces are established and state management solutions are in place.",
+    subtopics: [
+      "Setting up Azure Database Services",
+      "Configuring API Gateways and Load Balancers",
+      "Storing State: Blob Storage and Databases",
+      "State Management with Terraform on Azure",
+    ],
+    plane: "State Plane",
     estimatedDate: "01/15/2024",
-    url: "/docs/DevOps-Culture",
+    url: "/docs/project-interfaces",
   },
   {
-    title: "Performance Testing",
-    subtopics: ["Load Testing", "Performance Benchmarking"],
+    title: "Project: Integration, Delivery, and Monitoring",
+    description:
+      "Focusing on the continuous integration/delivery and monitoring aspects of our platform.",
+    subtopics: [
+      "Setting up CI/CD with GitHub Actions and Azure DevOps",
+      "Deploying Applications on the Platform",
+      "Monitoring with Azure Monitor and Log Analytics",
+      "Alerts and Incident Response Scenarios",
+    ],
+    plane: "Integration & Delivery Plane",
     estimatedDate: "01/22/2024",
-    url: "/docs/Performance-Testing",
+    url: "/docs/project-integration",
   },
   {
-    title: "Cost Optimization",
-    subtopics: ["Cost Monitoring", "Budgeting and Optimization Strategies"],
+    title: "Project: Ensuring Security and Compliance",
+    description:
+      "Implementing security best practices, identity management, and compliance checks.",
+    subtopics: [
+      "Setting up Azure Active Directory and RBAC",
+      "Network Security and Firewalls",
+      "Auditing and Compliance with Azure Policy",
+      "Secrets Management with Azure Key Vault",
+    ],
+    plane: "Security Plane",
     estimatedDate: "01/29/2024",
-    url: "/docs/Cost-Optimization",
+    url: "/docs/project-security",
   },
   {
-    title: "Compliance and Regulations",
+    title: "Project: Finalizing and Documentation",
+    description:
+      "Wrapping up our platform implementation, testing, and documenting our journey.",
     subtopics: [
-      "GDPR and Data Privacy Compliance",
-      "HIPAA and Healthcare Compliance",
+      "End-to-end Testing of the Platform",
+      "Documenting the Architecture and Decisions",
+      "Cost Analysis and Optimization on Azure",
+      "Project Wrap-up and Future Improvements",
     ],
+    plane: "Developer Plane",
     estimatedDate: "02/05/2024",
-    url: "/docs/Compliance-and-Regulations",
-  },
-  {
-    title: "Emerging Technologies",
-    subtopics: [
-      "Edge Computing",
-      "Serverless Computing",
-      "Machine Learning Integration",
-    ],
-    estimatedDate: "02/12/2024",
-    url: "/docs/Emerging-Technologies",
-  },
-  {
-    title: "Use Cases and Case Studies",
-    subtopics: ["Real-World Examples", "Success Stories"],
-    estimatedDate: "02/19/2024",
-    url: "/docs/Use-Cases-and-Case-Studies",
-  },
-  {
-    title: "Certifications and Career Paths",
-    subtopics: [
-      "Platform Engineering Certifications",
-      "Career Opportunities in Platform Engineering",
-    ],
-    estimatedDate: "02/26/2024",
-    url: "/docs/Certifications-and-Career-Paths",
-  },
-  {
-    title: "The Last Update",
-    subtopics: ["Loose Ends", "Next Steps"],
-    estimatedDate: "03/02/2024",
-    url: "/docs/Final",
+    url: "/docs/project-finalizing",
   },
 ];
-
 export default function Roadmap() {
   const startDate = new Date("10/30/2023");
   const endDate = new Date("03/04/2024");
 
-  const dateIncrement = 7; // Number of days between each week
+  topicsWithSubtopics.sort((a, b) => {
+    const [monthA, dayA, yearA] = a.estimatedDate.split("/").map(Number);
+    const [monthB, dayB, yearB] = b.estimatedDate.split("/").map(Number);
+
+    if (yearA !== yearB) return yearA - yearB;
+    if (monthA !== monthB) return monthA - monthB;
+    return dayA - dayB;
+  });
+
+  const dateIncrement = 7;
   const topicsCount = topicsWithSubtopics.length;
   const weeksCount = Math.ceil(
     (endDate - startDate) / (1000 * 60 * 60 * 24 * dateIncrement)
   );
 
-  // Function to group weeks by month
   const groupWeeksByMonth = () => {
     const weeksByMonth = [];
     let currentMonth = null;

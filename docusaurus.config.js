@@ -101,10 +101,6 @@ const config = {
             title: "Contact",
             items: [
               {
-                label: "Email",
-                href: "mailto: limerickson@outlook.com",
-              },
-              {
                 label: "Linked In",
                 href: "https://www.linkedin.com/in/lukeerickson123/",
               },
