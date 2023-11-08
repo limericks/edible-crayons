@@ -5,30 +5,25 @@ import SearchBanner from "../components/Roadmap/SearchBanner";
 
 const topicsWithSubtopics = [
   {
-    title: "Course Introduction and Overview",
+    title: "Introduction",
     description:
-      "An introduction to the course structure, expectations, and key objectives.",
-    subtopics: [
-      "Why Platform Engineering?",
-      "Course Outline",
-      "Assessment Criteria",
-    ],
+      "You're here because you want to learn about platform engineering, or consume bad jokes.",
+    subtopics: ["What is Platform Engineering"],
     plane: "Foundations",
     estimatedDate: "10/30/2023",
     url: "/docs/intro",
   },
   {
     title: "History and Evolution of Platform Engineering",
-    description:
-      "Tracing the evolution of Platform Engineering from traditional infrastructure to modern practices.",
+    description: "From ancient alien infrastructure to modern practices.",
     subtopics: [
-      "From Physical Servers to Virtualization",
-      "Cloud Revolution",
-      "Rise of Containers and Orchestration",
+      "Swiftly Turning Pages: History of Virtualization",
+      "Clouded Rearrangement",
+      "Clear Containers: I lack object permanence",
     ],
     plane: "Foundations",
     estimatedDate: "11/06/2023",
-    url: "/docs/history-evolution",
+    url: "/docs/history",
   },
   {
     title: "Key Principles of Platform Engineering",
@@ -39,6 +34,7 @@ const topicsWithSubtopics = [
       "Immutable Infrastructure",
       "Continuous Delivery and Integration",
       "Self-service Platforms",
+      "Arbitrary complexity, job security, and you: ",
     ],
     plane: "Foundations",
     estimatedDate: "11/13/2023",
