@@ -74,7 +74,7 @@ const config = {
             type: "docSidebar",
             sidebarId: "IntroductionSidebar",
             position: "left",
-            label: "Introduction",
+            label: "Content",
           },
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/roadmap", label: "Roadmap", position: "left" },
