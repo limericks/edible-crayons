@@ -19,7 +19,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Platform Intro - 5min ⏱️
+            █ Platform Intro █
           </Link>
         </div>
       </div>
@@ -32,7 +32,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="A site to learn about Platform Engineering"
+      description="Learn about Platform Engineering."
     >
       <HomepageHeader />
       <main>
