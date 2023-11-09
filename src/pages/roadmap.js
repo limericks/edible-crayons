@@ -3,6 +3,11 @@ import Layout from "@theme/Layout";
 import RoadmapRow from "../components/Roadmap/RoadmapRow";
 import SearchBanner from "../components/Roadmap/SearchBanner";
 
+//end is reviewed source platform engineering education platform
+//engineers collaborate on solutions to challenges
+//teams/individuals receive challenge completion badges.
+//certly sync in?
+
 const topicsWithSubtopics = [
   {
     title: "Introduction",
