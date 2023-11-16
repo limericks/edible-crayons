@@ -42,7 +42,7 @@ const topicsWithSubtopics = [
       "Arbitrary complexity, job security, and you: ",
     ],
     plane: "Foundations",
-    estimatedDate: "11/13/2023",
+    estimatedDate: "11/19/2023",
     url: "/docs/key-principles",
   },
   {
@@ -51,7 +51,7 @@ const topicsWithSubtopics = [
       "Exploring each of the planes in depth, understanding their significance and role.",
     subtopics: ["Exploration of the Planes"],
     plane: "Foundations",
-    estimatedDate: "11/20/2023",
+    estimatedDate: "11/23/2023",
     url: "/docs/planes-deepdive",
   },
   {
@@ -64,7 +64,7 @@ const topicsWithSubtopics = [
       "GitOps Principles",
     ],
     plane: "Management Plane",
-    estimatedDate: "11/27/2023",
+    estimatedDate: "11/30/2023",
     url: "/docs/IaC-practical",
   },
   {
@@ -78,7 +78,7 @@ const topicsWithSubtopics = [
       "Hands-on Lab: Setting up a Kubernetes Cluster",
     ],
     plane: "Resource Plane",
-    estimatedDate: "12/04/2023",
+    estimatedDate: "12/05/2023",
     url: "/docs/kubernetes-intro",
   },
   {

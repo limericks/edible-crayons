@@ -38,9 +38,21 @@ In 1999 VMWare introduces the VMWare Virtual Platform, inching us closer to the 
 
 ### The Age of VmWare
 
-VMWare Server, a free machine-level virtualization product is released for servers in the early 2000s. It was a hit. Emboldened by the success of this bet, VMWare went on to produce multiple popular virtualization products like the Horizon Client, which many are familiar with through office use, and VMWare Tanzu. To learn more about VMWare, check out this banger: [Tanzu Golden Pitch](https://tanzu.vmware.com/content/videos/vmware-tanzu-golden-pitch)
+VMWare Server, a free machine-level virtualization product is released for servers in the early 2000s. It was a hit. Emboldened by the success of this bet, VMWare went on to produce multiple popular virtualization products like the Horizon Client, which many are familiar with through office use, and VMWare Tanzu. To learn more about VMWare, check out this [banger](https://tanzu.vmware.com/content/videos/vmware-tanzu-golden-pitch).
 
-## Cloud Computing
+## Clouds w/ a % of horses
+
+Cloud Computing is an American Thoroughbred racehorse who won the 2017 Preakness Stakes. Unbelievably, it was only his 4th start.
+
+According to Wikipedia, it is the on demand availability of computer system resources, especially data storage and computer power. Ultimately, it's a collection of resources in one spot. Swathes of companies all subscribe to those resources. Resources are just virtualized instances of things like databases, compute power mechanisms, network architecturs...etc. This isn't comprehensive. Check out the plethora of articles on [Learn](https://learn.microsoft.com/) for the details.
+
+## Containers
+
+Containerization is a crucial concept in platform engineering, especially when considering cloud services like Microsoft Azure. It involves encapsulating an application and its dependencies in a container, which unlike traditional virtual machines, shares the host's kernel and isolates the application environment. This approach leads to efficient and portable units, allowing applications to run consistently across different environments, including local machines, data centers, or cloud platforms like Azure.
+
+Azure offers services like Azure Container Instances (ACI) and Azure Kubernetes Service (AKS) for containerization. ACI provides a simple environment for running containers without managing virtual machines, suitable for isolated applications. AKS, a managed Kubernetes service, automates deploying, scaling, and managing containerized applications, handling tasks like load balancing and multi-host orchestration. These services solve common deployment issues and support cloud-native development.
+
+Using containerization with Azure streamlines the deployment of applications, adhering to microservices architecture and supporting DevOps practices. It offers tools for orchestration, continuous integration, and deployment, enhancing efficiency in software development and operations. This integration of containerization with Azure services represents a significant trend in software deployment and management in cloud environments. [Containerization on Wikipedia](<https://en.wikipedia.org/wiki/Containerization_(computing)>)
 
 ## Additional Sources
 
