@@ -77,7 +77,6 @@ const config = {
             label: "Content",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          { to: "/roadmap", label: "Roadmap", position: "left" },
           {
             href: "https://github.com/limericks/edible-crayons/",
             label: "GitHub",
@@ -118,8 +117,8 @@ const config = {
                 href: "https://github.com/limericks/",
               },
               {
-                label: "LukeOnAzure",
-                href: "https://lukeonazure.azurewebsites.net/",
+                label: "limericks",
+                href: "https://limericks.github.io",
               },
             ],
           },
